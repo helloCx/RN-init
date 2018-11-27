@@ -20,11 +20,18 @@
               "name": "XXXXXXXXXXXXXXX",
               "displayName": "XXXXXXXXXXXXXXX"
             }
-    生成对应的android和ios的项目：react-native upgrade
-
+    生成对应的android和ios的项目：
+        react-native upgrade
 
 apollo-react若提示缺少的话就，需要自己安装：
-    npm install apollo-boost react-apollo graphql apollo-link-http  --save
+    npm install apollo-boost react-apollo graphql apollo-link-http apollo-link-context apollo-cache-inmemory --save
+
+
+使用react-native-vector-icons
+    在xcode下  链接 ./node_modules/react-native-vector-icons/Fonts 文件
+    具体教程：百度 或 https://github.com/oblador/react-native-vector-icons
+最后：运行前先react-native link 一下 避免不必要的问题出现。
+
 
 
 react-native-vector-icons 图标查找网址
