@@ -801,16 +801,7 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
-apollo-cache-inmemory@^1.3.11:
-  version "1.3.11"
-  resolved "http://registry.npm.taobao.org/apollo-cache-inmemory/download/apollo-cache-inmemory-1.3.11.tgz#6cb8f24ec812715169f9acbb0b67833f9a19ec90"
-  integrity sha1-bLjyTsgScVFp+ay7C2eDP5oZ7JA=
-  dependencies:
-    apollo-cache "^1.1.21"
-    apollo-utilities "^1.0.26"
-    optimism "^0.6.6"
-
-apollo-cache@1.1.21, apollo-cache@^1.1.21:
+apollo-cache@1.1.21:
   version "1.1.21"
   resolved "http://registry.npm.taobao.org/apollo-cache/download/apollo-cache-1.1.21.tgz#950025e2272741ba8e5064419906e3ac4072925d"
   integrity sha1-lQAl4icnQbqOUGRBmQbjrEBykl0=
@@ -831,13 +822,6 @@ apollo-client@^2.4.7:
     zen-observable "^0.8.0"
   optionalDependencies:
     "@types/async" "2.0.50"
-
-apollo-link-context@^1.0.10:
-  version "1.0.10"
-  resolved "http://registry.npm.taobao.org/apollo-link-context/download/apollo-link-context-1.0.10.tgz#c20b0b32c6e4e08c0d3967174f9c2a897c8431fe"
-  integrity sha1-wgsLMsbk4IwNOWcXT5wqiXyEMf4=
-  dependencies:
-    apollo-link "^1.2.4"
 
 apollo-link-dedup@^1.0.0:
   version "1.0.11"
@@ -2635,11 +2619,6 @@ image-size@^0.6.0:
   resolved "http://registry.npm.taobao.org/image-size/download/image-size-0.6.3.tgz#e7e5c65bb534bd7cdcedd6cb5166272a85f75fb2"
   integrity sha1-5+XGW7U0vXzc7dbLUWYnKoX3X7I=
 
-immutable-tuple@^0.4.9:
-  version "0.4.9"
-  resolved "http://registry.npm.taobao.org/immutable-tuple/download/immutable-tuple-0.4.9.tgz#473ebdd6c169c461913a454bf87ef8f601a20ff0"
-  integrity sha1-Rz691sFpxGGROkVL+H749gGiD/A=
-
 import-fresh@^2.0.0:
   version "2.0.0"
   resolved "http://registry.npm.taobao.org/import-fresh/download/import-fresh-2.0.0.tgz#d81355c15612d386c61f9ddd3922d4304822a546"
@@ -4383,13 +4362,6 @@ opn@^3.0.2:
   dependencies:
     object-assign "^4.0.1"
 
-optimism@^0.6.6:
-  version "0.6.8"
-  resolved "http://registry.npm.taobao.org/optimism/download/optimism-0.6.8.tgz#0780b546da8cd0a72e5207e0c3706c990c8673a6"
-  integrity sha1-B4C1RtqM0KcuUgfgw3BsmQyGc6Y=
-  dependencies:
-    immutable-tuple "^0.4.9"
-
 optimist@^0.6.1:
   version "0.6.1"
   resolved "http://registry.npm.taobao.org/optimist/download/optimist-0.6.1.tgz#da3ea74686fa21a19a111c326e90eb15a0196686"
@@ -4796,6 +4768,16 @@ react-devtools-core@^3.4.0:
   dependencies:
     shell-quote "^1.6.1"
     ws "^3.3.1"
+
+react-dom@16.6.3:
+  version "16.6.3"
+  resolved "http://registry.npm.taobao.org/react-dom/download/react-dom-16.6.3.tgz#8fa7ba6883c85211b8da2d0efeffc9d3825cccc0"
+  integrity sha1-j6e6aIPIUhG42i0O/v/J04JczMA=
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.11.2"
 
 react-is@^16.3.2, react-is@^16.5.2, react-is@^16.6.1:
   version "16.6.3"
@@ -5310,7 +5292,7 @@ sax@~1.1.1:
   resolved "http://registry.npm.taobao.org/sax/download/sax-1.1.6.tgz#5d616be8a5e607d54e114afae55b7eaf2fcc3240"
   integrity sha1-XWFr6KXmB9VOEUr65Vt+ry/MMkA=
 
-scheduler@^0.11.0:
+scheduler@^0.11.0, scheduler@^0.11.2:
   version "0.11.2"
   resolved "http://registry.npm.taobao.org/scheduler/download/scheduler-0.11.2.tgz#a8db5399d06eba5abac51b705b7151d2319d33d3"
   integrity sha1-qNtTmdBuulq6xRtwW3FR0jGdM9M=
